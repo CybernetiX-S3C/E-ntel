@@ -17,7 +17,7 @@ class Banner:
 
 	def usage(self,_exit_=False):
 		self.banner()
-		print("Usage: infoga.py [OPTIONS]\n")
+		print("Usage: E-ntel.py [OPTIONS]\n")
 		print("\t-d --domain\tTarget URL/Name")
 		print("\t-s --source\tSource data, default \"all\":\n")
 		print("\t\tall\tUse all search engine")
@@ -34,9 +34,9 @@ class Banner:
 		print("\t-v --verbose\tVerbosity level (1,2 or 3)")
 		print("\t-H --help\tShow this help and exit\n")
 		print("Example:")
-		print("\tinfoga.py --domain site.gov -v 3")
-		print("\tinfoga.py --info admin@site.gov -v 3")
-		print("\tinfoga.py --domain site.gov --breach -v 3")
-		print("\tinfoga.py --info admin@site.gov --breach -v 3")
-		print("\tinfoga.py --domain site.gov --source google -v 3\n")
+		print("\tE-ntel.py --domain site.gov -v 3")
+		print("\tE-ntel.py --info admin@site.gov -v 3")
+		print("\tE-ntel.py --domain site.gov --breach -v 3")
+		print("\tE-ntel.py --info admin@site.gov --breach -v 3")
+		print("\tE-ntel.py --domain site.gov --source google -v 3\n")
 		if _exit_: exit(0)
