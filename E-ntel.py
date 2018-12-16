@@ -25,8 +25,8 @@ from recon.pwned import *
 from recon.shodan import *
 from recon.mailtester import *
 
-class infoga(object):
-	""" infoga """
+class entel(object):
+	""" entel """
 	def __init__(self):
 		self.verbose = 1
 		self.domain = None
@@ -101,6 +101,6 @@ class infoga(object):
 		# end
 if __name__ == "__main__":
 	try:
-		infoga().main()
+		entel().main()
 	except KeyboardInterrupt as e:
 		exit(warn('CTRL+C: %s'%e))
