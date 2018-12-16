@@ -4,6 +4,8 @@ E-ntel is a tool gathering email accounts informations (ip,hostname,country,...)
 
 ![screen](https://raw.githubusercontent.com/cybernetix-s3c/E-ntel/master/screen.PNG)
 
+## **Due to python's latest version being 3.8, it will only run on 3.6 and 3.7. If you have versons 3.6, 3.7, or 3.8 make sure to specify during the usage as follows: **
+
 ## Installation
 ```
 $ git clone https://github.com/CybernetiX-S3C/E-ntel.git 
@@ -11,19 +13,34 @@ $ cd E-ntel
 ```
 __Linux__
 ```
-$ pip3 install requests
-$ python3 E-ntel.py
+$ pip3.6 install -r requirements.txt
+$ python3.6 E-ntel.py
+
+or
+
+$ pip3.7 install -r requirements.txt
+$ python3.7 E-ntel.py
 ```
 __Windows__
 ```
-$ python3 -m pip install requests 
-$ python3 E-ntel.py
+$ python3.6 -m pip install requests 
+$ python3.6 E-ntel.py
+
+or
+
+$ python3.7 -m pip install requests 
+$ python3.7 E-ntel.py
 ```
 
 ## Usage
 
 ```
-$ python3 E-ntel.py --domain cia.gov --source google --verbose 3
+$ python3.6 E-ntel.py --domain cia.gov --source google --verbose 3
+
+or
+
+$ python3.7 E-ntel.py --domain cia.gov --source google --verbose 3
+
 ```
 
 ```
